@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import Post from './components/Post';
 
-class App extends Component {
-  render() {
-    <div className="app">
-      
+function App() {
+  return (
+    <div className="App">
+      <Post title="Some title" description="Some description"/>
     </div>
-  }
-} 
+  );
+}
 
 export default App;
