@@ -19,13 +19,11 @@ code {
 }
 
 .post__image {
-  flex: 0.2;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .post__info {
-  flex: 1;
   padding: 15px;
 }

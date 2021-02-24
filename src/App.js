@@ -22,8 +22,8 @@ const App = ({ posts, setPosts, changeRegion }) => {
       </ul>
       {
         news.length > 0 ?
-        news.map(({title, description, image}) => {
-          return <Post title={title} description={description} image={image} />
+        news.map(({ title, text, image}) => {
+          return <Post text={text} title={title} image={image} />
         }) : 
         <span>Loading...</span>
       }
